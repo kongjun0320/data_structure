@@ -1,2 +1,2 @@
-# data_structure
-Data structure and algorithm
+# data_structure_algorithm
+
