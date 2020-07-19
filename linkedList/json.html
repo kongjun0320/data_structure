@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>使用指针链表获取json的节点值</title>
+  </head>
+  <body></body>
+  <script>
+    const json = {
+      a: { c: { d: 1 } },
+      b: { e: 2 },
+    }
+
+    const path = ['a', 'c']
+
+    let p = json
+
+    path.forEach((k) => {
+      p = p[k]
+    })
+    console.log(p)
+  </script>
+</html>
